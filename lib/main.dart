@@ -151,11 +151,11 @@ class _CalculatorScreenState extends State<CalculatorScreen> {
                   ],
                 ),
                 Row(
-                  children: [
-                    _buildButton("0"),
-                    _buildButton("C", color: Colors.red),
-                    _buildButton("=", color: Colors.green),
-                    _buildButton("+", color: Colors.orange),
+        children: [
+          _buildButton("0"),
+          _buildButton("%", color: Colors.orange), // ✅ added modulo
+          _buildButton("C", color: Colors.red),
+          _buildButton("=", color: Colors.green),
                   ],
                 ),
               ],
